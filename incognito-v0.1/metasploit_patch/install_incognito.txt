@@ -1,0 +1,6 @@
+# Execute the following three commands from within the root metasploit directory (e.g. framework-3.1/)
+#######################################################################################################
+
+patch -p0 < incognito_ruby_patch.patch
+cp ext_server_incognito.dll data/meterpreter/
+cp ext_server_stdapi.dll data/meterpreter/
